@@ -3,7 +3,6 @@ import qrcode
 import cv2
 
 def generate_qr(name,val):
-
     img = qrcode.make(val)
     img.save( name + ".PNG")
  
